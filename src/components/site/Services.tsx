@@ -14,7 +14,9 @@ const quickList = [
   { t: "Reabilitação Oral Completa", d: "M3 12h4l2 5 3-10 2.5 8L18 9h3" },
 ];
 
-const cards = [
+type Card = { title: string; text: string; img: string | null; alt?: string };
+
+const cards: Card[] = [
   {
     title: "Implantes Dentários",
     text: "Restauração completa com implantes de titânio de alta qualidade e planejamento 3D milimétrico, do diagnóstico à cirurgia.",
