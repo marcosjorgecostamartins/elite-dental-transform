@@ -9,7 +9,6 @@ export function Hero() {
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
   const videoY = useTransform(scrollYProgress, [0, 1], ["0%", "18%"]);
   const contentY = useTransform(scrollYProgress, [0, 1], [0, 120]);
-  const fade = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
   return (
     <section ref={ref} id="top" className="relative isolate min-h-svh overflow-hidden surface-dark">
@@ -26,11 +25,11 @@ export function Hero() {
           aria-hidden="true"
         />
       </motion.div>
-      <div className="absolute inset-0 -z-10 bg-linear-to-b from-ink/85 via-ink/70 to-ink" />
+      <div className="absolute inset-0 -z-10 bg-linear-to-b from-ink/80 via-ink/60 to-ink" />
       <div className="grid-tech absolute inset-0 -z-10 opacity-40" />
 
       <motion.div
-        style={{ y: contentY, opacity: fade }}
+        style={{ y: contentY }}
         className="mx-auto flex min-h-svh max-w-7xl flex-col justify-end gap-10 px-5 pb-16 pt-36 md:px-10 md:pb-24"
       >
         <div className="max-w-4xl">
