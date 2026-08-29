@@ -40,8 +40,7 @@ export function WordsUp({ text, className }: { text: string; className?: string 
           <motion.span
             className="inline-block"
             initial={{ y: "110%", opacity: 0 }}
-            whileInView={{ y: "0%", opacity: 1 }}
-            viewport={{ once: true }}
+            animate={{ y: "0%", opacity: 1 }}
             transition={{ duration: 0.9, delay: i * 0.055, ease: [0.16, 1, 0.3, 1] }}
           >
             {word}
