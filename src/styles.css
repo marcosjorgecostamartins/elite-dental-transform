@@ -43,7 +43,7 @@
   --color-mint: var(--mint);
   --color-coral: var(--coral);
   --color-gold: var(--gold);
-  --font-display: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", "Playfair Display", Georgia, serif;
   --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 }
@@ -51,26 +51,26 @@
 :root {
   --radius: 1.125rem;
 
-  --ink: oklch(0.19 0.032 205);
-  --ink-soft: oklch(0.27 0.036 205);
-  --ivory: oklch(0.972 0.011 85);
-  --mint: oklch(0.83 0.14 175);
+  --ink: oklch(0.245 0.048 222);
+  --ink-soft: oklch(0.32 0.05 222);
+  --ivory: oklch(0.985 0.004 85);
+  --mint: oklch(0.79 0.125 200);
   --coral: oklch(0.75 0.13 38);
-  --gold: oklch(0.82 0.1 85);
+  --gold: oklch(0.855 0.075 82);
 
-  --background: oklch(0.972 0.011 85);
-  --foreground: oklch(0.19 0.032 205);
+  --background: oklch(0.995 0.002 85);
+  --foreground: oklch(0.245 0.048 222);
   --card: oklch(1 0.003 85);
   --card-foreground: oklch(0.19 0.032 205);
   --popover: oklch(1 0.003 85);
   --popover-foreground: oklch(0.19 0.032 205);
-  --primary: oklch(0.32 0.062 197);
+  --primary: oklch(0.245 0.048 222);
   --primary-foreground: oklch(0.98 0.01 85);
   --secondary: oklch(0.93 0.016 90);
   --secondary-foreground: oklch(0.27 0.036 205);
   --muted: oklch(0.94 0.012 90);
   --muted-foreground: oklch(0.48 0.021 210);
-  --accent: oklch(0.83 0.14 175);
+  --accent: oklch(0.79 0.125 200);
   --accent-foreground: oklch(0.19 0.032 205);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
@@ -101,7 +101,7 @@
   h3,
   h4 {
     font-family: var(--font-display);
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
   }
 
   ::selection {
@@ -126,7 +126,7 @@
 @utility surface-dark {
   background:
     radial-gradient(120% 90% at 10% 0%, color-mix(in oklab, var(--mint) 14%, transparent), transparent 60%),
-    linear-gradient(160deg, var(--ink) 0%, oklch(0.15 0.028 205) 100%);
+    linear-gradient(160deg, var(--ink) 0%, oklch(0.17 0.035 224) 100%);
   color: var(--ivory);
 }
 

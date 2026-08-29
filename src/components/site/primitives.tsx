@@ -33,24 +33,24 @@ export function Reveal({
 
 /** Headline that assembles word by word. */
 export function WordsUp({ text, className }: { text: string; className?: string }) {
+  const words = text.split(" ");
   return (
     <span className={className}>
-      {text.split(" ").map((word, i) => (
-        <span key={`${word}-${i}`} className="inline-block overflow-hidden align-bottom">
-          <motion.span
-            className="inline-block"
-            initial={{ y: "110%", opacity: 0 }}
-            whileInView={{ y: "0%", opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.9, delay: i * 0.055, ease: [0.16, 1, 0.3, 1] }}
-          >
-            {word}
-            {"\u00A0"}
-          </motion.span>
-        </span>
+      {words.map((word, i) => (
+        <motion.span
+          key={`${word}-${i}`}
+          className="inline-block"
+          initial={{ opacity: 0, y: 24, filter: "blur(8px)" }}
+          animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          transition={{ duration: 0.8, delay: 0.1 + i * 0.06, ease: [0.16, 1, 0.3, 1] }}
+        >
+          {word}
+          {"\u00A0"}
+        </motion.span>
       ))}
     </span>
   );
+
 }
 
 /** Counts up once visible. */
