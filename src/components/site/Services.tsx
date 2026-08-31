@@ -38,7 +38,7 @@ const cards: Card[] = [
     title: "Harmonização Orofacial",
     text: "Toxina botulínica e preenchimento aplicados com técnica e critério, para um resultado que ninguém percebe que foi “feito”.",
     img: care.url,
-    alt: "Atendimento personalizado com o Dr. Ismael Sidney",
+    alt: "Atendimento personalizado com o Dr. Sinval Silva",
   },
   {
     title: "Clareamento e Restaurações Estéticas",

@@ -13,7 +13,7 @@ import { ScrollProgress } from "@/components/site/primitives";
 
 const TITLE = "Visual Odonto Integra Clínica | Implantes e Estética Dental em Vitória";
 const DESCRIPTION =
-  "Implantes dentários com tecnologia 3D, lentes de contato dental e harmonização orofacial na Praia do Canto, Vitória (ES). 45 anos de experiência com o Dr. Ismael Sidney.";
+  "Implantes dentários com tecnologia 3D, lentes de contato dental e harmonização orofacial na Praia do Canto, Vitória (ES). 45 anos de experiência com o Dr. Sinval Silva.";
 
 const jsonLd = {
   "@context": "https://schema.org",
