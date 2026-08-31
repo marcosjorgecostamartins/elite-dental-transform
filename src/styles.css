@@ -6,8 +6,10 @@
 
 /*
  * Visual Odonto Integra Clínica — design system
- * Palette: deep petrol/graphite base, warm ivory surfaces, cyan-mint "tech" accent,
- * soft coral for lifestyle warmth. All colors in oklch.
+ * Palette extraída do logo da clínica: monograma em ouro/bronze, tipografia em
+ * grafite-azulado profundo, assinatura manuscrita em azul, fundo areia/ivory.
+ * O token --mint permanece como nome do acento principal (agora ouro) para não
+ * quebrar as classes já usadas nas seções. Todas as cores em oklch.
  */
 
 @theme inline {
@@ -51,32 +53,32 @@
 :root {
   --radius: 1.125rem;
 
-  --ink: oklch(0.245 0.048 222);
-  --ink-soft: oklch(0.32 0.05 222);
-  --ivory: oklch(0.985 0.004 85);
-  --mint: oklch(0.79 0.125 200);
-  --coral: oklch(0.75 0.13 38);
-  --gold: oklch(0.855 0.075 82);
+  --ink: oklch(0.235 0.026 258);
+  --ink-soft: oklch(0.315 0.03 258);
+  --ivory: oklch(0.972 0.011 85);
+  --mint: oklch(0.735 0.088 79);
+  --coral: oklch(0.55 0.115 255);
+  --gold: oklch(0.855 0.068 84);
 
-  --background: oklch(0.995 0.002 85);
-  --foreground: oklch(0.245 0.048 222);
-  --card: oklch(1 0.003 85);
-  --card-foreground: oklch(0.19 0.032 205);
-  --popover: oklch(1 0.003 85);
-  --popover-foreground: oklch(0.19 0.032 205);
-  --primary: oklch(0.245 0.048 222);
-  --primary-foreground: oklch(0.98 0.01 85);
-  --secondary: oklch(0.93 0.016 90);
-  --secondary-foreground: oklch(0.27 0.036 205);
-  --muted: oklch(0.94 0.012 90);
-  --muted-foreground: oklch(0.48 0.021 210);
-  --accent: oklch(0.79 0.125 200);
-  --accent-foreground: oklch(0.19 0.032 205);
+  --background: oklch(0.985 0.007 85);
+  --foreground: oklch(0.235 0.026 258);
+  --card: oklch(0.996 0.005 85);
+  --card-foreground: oklch(0.22 0.026 258);
+  --popover: oklch(0.996 0.005 85);
+  --popover-foreground: oklch(0.22 0.026 258);
+  --primary: oklch(0.235 0.026 258);
+  --primary-foreground: oklch(0.985 0.007 85);
+  --secondary: oklch(0.93 0.014 86);
+  --secondary-foreground: oklch(0.27 0.026 258);
+  --muted: oklch(0.945 0.011 86);
+  --muted-foreground: oklch(0.485 0.018 258);
+  --accent: oklch(0.735 0.088 79);
+  --accent-foreground: oklch(0.22 0.026 258);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.88 0.013 90);
-  --input: oklch(0.88 0.013 90);
-  --ring: oklch(0.62 0.09 190);
+  --border: oklch(0.885 0.012 86);
+  --input: oklch(0.885 0.012 86);
+  --ring: oklch(0.66 0.082 79);
 }
 
 @layer base {

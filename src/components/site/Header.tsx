@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Logo } from "./Logo";
 import { CtaButton } from "./primitives";
 
 const links = [
@@ -30,14 +31,8 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 md:px-10">
-        <a href="#top" className="flex items-center gap-3 text-ivory" aria-label="Visual Odonto — página inicial">
-          <span className="relative flex h-11 w-11 items-center justify-center rounded-full border border-mint/40">
-            <span className="font-display text-lg tracking-tight text-mint">VO</span>
-          </span>
-          <span className="leading-tight">
-            <span className="block font-display text-base text-ivory">Visual Odonto</span>
-            <span className="eyebrow block text-mint/80">Integra Clínica</span>
-          </span>
+        <a href="#top" className="text-ivory" aria-label="Visual Odonto — página inicial">
+          <Logo size={42} />
         </a>
 
         <nav className="hidden items-center gap-8 lg:flex" aria-label="Navegação principal">
