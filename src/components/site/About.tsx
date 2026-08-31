@@ -21,8 +21,8 @@ export function About() {
             >
               <img
                 src={doctor.url}
-                alt="Dr. Ismael Sidney em seu consultório na Visual Odonto Integra Clínica"
-                className="aspect-4/5 w-full object-cover"
+                alt="Dr. Ismael Sidney, responsável clínico da Visual Odonto Integra Clínica"
+                className="aspect-4/5 w-full object-cover object-[38%_center]"
                 loading="lazy"
               />
             </div>
