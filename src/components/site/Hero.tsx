@@ -48,7 +48,10 @@ export function Hero() {
             Praia do Canto, Vitória — ES
           </motion.a>
 
-          <h1 className="mt-7 font-display text-[clamp(2.4rem,6.4vw,5rem)] leading-[0.98] text-ivory">
+          <h1
+            className="mt-7 font-display text-[clamp(2.4rem,6.4vw,5rem)] leading-[0.98] text-ivory"
+            style={{ textShadow: "0 2px 24px color-mix(in oklab, var(--ink) 85%, transparent)" }}
+          >
             <WordsUp text="Seu sorriso merece" />
             <span className="block text-gold">
               <WordsUp text="45 anos de experiência" />
@@ -60,7 +63,8 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.6 }}
-            className="mt-7 max-w-2xl text-lg leading-relaxed text-ivory/75"
+            className="mt-7 max-w-2xl text-lg leading-relaxed text-ivory/90"
+            style={{ textShadow: "0 2px 18px color-mix(in oklab, var(--ink) 80%, transparent)" }}
           >
             Implantes dentários e estética do sorriso com tecnologia 3D, precisão cirúrgica e o cuidado
             de quem trata cada paciente como único.
