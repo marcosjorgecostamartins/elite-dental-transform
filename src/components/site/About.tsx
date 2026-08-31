@@ -1,4 +1,4 @@
-import doctor from "@/assets/01_hero_dentista.jpg.asset.json";
+import doctor from "@/assets/dr-ismael-sidney.jpeg.asset.json";
 import inAction from "@/assets/02_sobre_clinica.jpg.asset.json";
 import { CtaButton, Parallax, Reveal, SectionLabel } from "./primitives";
 
