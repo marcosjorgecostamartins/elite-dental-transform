@@ -95,11 +95,11 @@ export function Hero() {
             { n: 3, s: "D", l: "planejamento digital de implantes" },
             { n: 100, s: "%", l: "procedimentos feitos na própria clínica" },
           ].map((stat) => (
-            <div key={stat.l} className="bg-ink/40 px-6 py-7">
+            <div key={stat.l} className="bg-ink/75 px-6 py-7">
               <dt className="font-display text-4xl text-mint">
                 <Counter to={stat.n} suffix={stat.s} />
               </dt>
-              <dd className="mt-2 text-sm leading-snug text-ivory/60">{stat.l}</dd>
+              <dd className="mt-2 text-sm leading-snug text-ivory/80">{stat.l}</dd>
             </div>
           ))}
         </motion.dl>
