@@ -61,12 +61,12 @@
   --gold: oklch(0.855 0.068 84);
 
   --background: oklch(0.985 0.007 85);
-  --foreground: oklch(0.235 0.026 258);
+  --foreground: oklch(0.265 0.022 265);
   --card: oklch(0.996 0.005 85);
   --card-foreground: oklch(0.22 0.026 258);
   --popover: oklch(0.996 0.005 85);
   --popover-foreground: oklch(0.22 0.026 258);
-  --primary: oklch(0.235 0.026 258);
+  --primary: oklch(0.29 0.021 265);
   --primary-foreground: oklch(0.985 0.007 85);
   --secondary: oklch(0.93 0.014 86);
   --secondary-foreground: oklch(0.27 0.026 258);
