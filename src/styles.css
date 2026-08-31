@@ -6,8 +6,10 @@
 
 /*
  * Visual Odonto Integra Clínica — design system
- * Palette: deep petrol/graphite base, warm ivory surfaces, cyan-mint "tech" accent,
- * soft coral for lifestyle warmth. All colors in oklch.
+ * Palette extraída do logo da clínica: monograma em ouro/bronze, tipografia em
+ * grafite-azulado profundo, assinatura manuscrita em azul, fundo areia/ivory.
+ * O token --mint permanece como nome do acento principal (agora ouro) para não
+ * quebrar as classes já usadas nas seções. Todas as cores em oklch.
  */
 
 @theme inline {
