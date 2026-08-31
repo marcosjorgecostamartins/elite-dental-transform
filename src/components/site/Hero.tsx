@@ -25,8 +25,9 @@ export function Hero() {
           aria-hidden="true"
         />
       </motion.div>
-      <div className="absolute inset-0 -z-10 bg-linear-to-b from-ink/80 via-ink/60 to-ink" />
-      <div className="grid-tech absolute inset-0 -z-10 opacity-40" />
+      <div className="absolute inset-0 -z-10 bg-linear-to-b from-ink/55 via-ink/25 to-ink/95" />
+      <div className="absolute inset-0 -z-10 bg-linear-to-r from-ink/75 via-ink/20 to-transparent" />
+      <div className="grid-tech absolute inset-0 -z-10 opacity-20" />
 
       <motion.div
         style={{ y: contentY }}
