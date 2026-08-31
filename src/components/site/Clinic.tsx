@@ -10,7 +10,7 @@ const gallery = [
   { src: reception.url, label: "Recepção", desc: "Ambiente acolhedor e profissional" },
   { src: waiting.url, label: "Sala de espera", desc: "Conforto desde o primeiro minuto" },
   { src: identity.url, label: "Nossa identidade", desc: "A marca que assina cada tratamento" },
-  { src: care.url, label: "Atendimento personalizado", desc: "Com o Dr. Ismael Sidney" },
+  { src: care.url, label: "Atendimento personalizado", desc: "Com o Dr. Sinval Silva" },
 ];
 
 const perks = [

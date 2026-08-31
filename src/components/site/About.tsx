@@ -21,7 +21,7 @@ export function About() {
             >
               <img
                 src={doctor.url}
-                alt="Dr. Ismael Sidney, responsável clínico da Visual Odonto Integra Clínica"
+                alt="Dr. Sinval Silva, responsável clínico da Visual Odonto Integra Clínica"
                 className="aspect-4/5 w-full object-cover object-[38%_center]"
                 loading="lazy"
               />
@@ -35,7 +35,7 @@ export function About() {
             >
               <img
                 src={inAction.url}
-                alt="Dr. Ismael Sidney realizando atendimento clínico"
+                alt="Dr. Sinval Silva realizando atendimento clínico"
                 className="aspect-square w-full object-cover"
                 loading="lazy"
               />
@@ -43,7 +43,7 @@ export function About() {
           </Reveal>
 
           <span className="float-slow absolute -left-4 top-8 hidden rounded-full border border-mint/50 bg-card px-4 py-2 text-xs font-semibold text-ink shadow-lg md:block">
-            Dr. Ismael Sidney
+            Dr. Sinval Silva
           </span>
         </div>
 
@@ -57,7 +57,7 @@ export function About() {
 
           <Reveal delay={0.1}>
             <p className="mt-7 text-lg leading-relaxed text-muted-foreground">
-              A Visual Odonto Integra Clínica nasceu do compromisso do Dr. Ismael Sidney com uma
+              A Visual Odonto Integra Clínica nasceu do compromisso do Dr. Sinval Silva com uma
               odontologia séria, precisa e humana. Depois de mais de quatro décadas de estrada, unimos
               experiência clínica a equipamentos de última geração para entregar o que a maioria promete
               e poucos cumprem: segurança, previsibilidade e um resultado que parece — e é — natural.
