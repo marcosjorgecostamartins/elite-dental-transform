@@ -25,9 +25,10 @@ export function Hero() {
           aria-hidden="true"
         />
       </motion.div>
-      <div className="absolute inset-0 -z-10 bg-linear-to-b from-ink/55 via-ink/25 to-ink/95" />
-      <div className="absolute inset-0 -z-10 bg-linear-to-r from-ink/75 via-ink/20 to-transparent" />
-      <div className="grid-tech absolute inset-0 -z-10 opacity-20" />
+      <div className="absolute inset-0 -z-10 bg-linear-to-b from-ink/60 via-ink/35 to-ink/95" />
+      <div className="absolute inset-0 -z-10 bg-linear-to-r from-ink/90 via-ink/45 to-ink/5" />
+      <div className="absolute inset-x-0 bottom-0 -z-10 h-2/3 bg-linear-to-t from-ink/85 to-transparent" />
+      <div className="grid-tech absolute inset-0 -z-10 opacity-15" />
 
       <motion.div
         style={{ y: contentY }}
@@ -47,7 +48,10 @@ export function Hero() {
             Praia do Canto, Vitória — ES
           </motion.a>
 
-          <h1 className="mt-7 font-display text-[clamp(2.4rem,6.4vw,5rem)] leading-[0.98] text-ivory">
+          <h1
+            className="mt-7 font-display text-[clamp(2.4rem,6.4vw,5rem)] leading-[0.98] text-ivory"
+            style={{ textShadow: "0 2px 24px color-mix(in oklab, var(--ink) 85%, transparent)" }}
+          >
             <WordsUp text="Seu sorriso merece" />
             <span className="block text-gold">
               <WordsUp text="45 anos de experiência" />
@@ -59,7 +63,8 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.6 }}
-            className="mt-7 max-w-2xl text-lg leading-relaxed text-ivory/75"
+            className="mt-7 max-w-2xl text-lg leading-relaxed text-ivory/90"
+            style={{ textShadow: "0 2px 18px color-mix(in oklab, var(--ink) 80%, transparent)" }}
           >
             Implantes dentários e estética do sorriso com tecnologia 3D, precisão cirúrgica e o cuidado
             de quem trata cada paciente como único.
@@ -90,11 +95,11 @@ export function Hero() {
             { n: 3, s: "D", l: "planejamento digital de implantes" },
             { n: 100, s: "%", l: "procedimentos feitos na própria clínica" },
           ].map((stat) => (
-            <div key={stat.l} className="bg-ink/40 px-6 py-7">
+            <div key={stat.l} className="bg-ink/75 px-6 py-7">
               <dt className="font-display text-4xl text-mint">
                 <Counter to={stat.n} suffix={stat.s} />
               </dt>
-              <dd className="mt-2 text-sm leading-snug text-ivory/60">{stat.l}</dd>
+              <dd className="mt-2 text-sm leading-snug text-ivory/80">{stat.l}</dd>
             </div>
           ))}
         </motion.dl>
