@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Logo } from "./Logo";
 import { CtaButton } from "./primitives";
 
 const links = [
