@@ -53,20 +53,20 @@
 :root {
   --radius: 1.125rem;
 
-  --ink: oklch(0.235 0.026 258);
-  --ink-soft: oklch(0.315 0.03 258);
-  --ivory: oklch(0.972 0.011 85);
+  --ink: oklch(0.29 0.021 265);
+  --ink-soft: oklch(0.375 0.024 265);
+  --ivory: oklch(0.945 0.008 92);
   --mint: oklch(0.735 0.088 79);
   --coral: oklch(0.55 0.115 255);
   --gold: oklch(0.855 0.068 84);
 
   --background: oklch(0.985 0.007 85);
-  --foreground: oklch(0.235 0.026 258);
+  --foreground: oklch(0.265 0.022 265);
   --card: oklch(0.996 0.005 85);
   --card-foreground: oklch(0.22 0.026 258);
   --popover: oklch(0.996 0.005 85);
   --popover-foreground: oklch(0.22 0.026 258);
-  --primary: oklch(0.235 0.026 258);
+  --primary: oklch(0.29 0.021 265);
   --primary-foreground: oklch(0.985 0.007 85);
   --secondary: oklch(0.93 0.014 86);
   --secondary-foreground: oklch(0.27 0.026 258);
