@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import procedure from "@/assets/02_sobre_clinica.jpg.asset.json";
 import care from "@/assets/11_clinica_atendimento.jpg.asset.json";
-import identity from "@/assets/10_clinica_sala_2.jpg.asset.json";
+
 import facetas from "@/assets/facetas-porcelana.jpeg.asset.json";
 import { CtaButton, Reveal, SectionLabel } from "./primitives";
 import { Tilt } from "./extras";
