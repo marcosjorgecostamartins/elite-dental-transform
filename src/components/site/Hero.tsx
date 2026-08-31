@@ -14,7 +14,7 @@ export function Hero() {
     <section ref={ref} id="top" className="relative isolate min-h-svh overflow-hidden surface-dark">
       <motion.div style={{ y: videoY }} className="absolute inset-0 -z-10 h-[118%]">
         <video
-          className="h-full w-full object-cover opacity-55"
+          className="h-full w-full object-cover opacity-95 contrast-[1.08] saturate-[1.05]"
           src={heroVideo.url}
           poster={heroPoster.url}
           autoPlay
