@@ -31,8 +31,8 @@ const cards: Card[] = [
   {
     title: "Facetas em Porcelana",
     text: "Correção de cor, formato e alinhamento com facetas personalizadas, feitas sob medida para o seu rosto.",
-    img: identity.url,
-    alt: "Identidade visual da Visual Odonto na parede da clínica",
+    img: facetas.url,
+    alt: "Resultado de facetas em porcelana com sorriso natural e alinhado",
   },
   {
     title: "Harmonização Orofacial",
