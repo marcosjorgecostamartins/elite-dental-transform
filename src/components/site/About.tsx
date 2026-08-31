@@ -1,4 +1,4 @@
-import doctor from "@/assets/01_hero_dentista.jpg.asset.json";
+import doctor from "@/assets/dr-ismael-sidney.jpeg.asset.json";
 import inAction from "@/assets/02_sobre_clinica.jpg.asset.json";
 import { CtaButton, Parallax, Reveal, SectionLabel } from "./primitives";
 
@@ -21,8 +21,8 @@ export function About() {
             >
               <img
                 src={doctor.url}
-                alt="Dr. Ismael Sidney em seu consultório na Visual Odonto Integra Clínica"
-                className="aspect-4/5 w-full object-cover"
+                alt="Dr. Ismael Sidney, responsável clínico da Visual Odonto Integra Clínica"
+                className="aspect-4/5 w-full object-cover object-[38%_center]"
                 loading="lazy"
               />
             </div>
