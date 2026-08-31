@@ -53,9 +53,9 @@
 :root {
   --radius: 1.125rem;
 
-  --ink: oklch(0.235 0.026 258);
-  --ink-soft: oklch(0.315 0.03 258);
-  --ivory: oklch(0.972 0.011 85);
+  --ink: oklch(0.29 0.021 265);
+  --ink-soft: oklch(0.375 0.024 265);
+  --ivory: oklch(0.945 0.008 92);
   --mint: oklch(0.735 0.088 79);
   --coral: oklch(0.55 0.115 255);
   --gold: oklch(0.855 0.068 84);
