@@ -49,7 +49,7 @@ export function Hero() {
 
           <h1 className="mt-7 font-display text-[clamp(2.4rem,6.4vw,5rem)] leading-[0.98] text-ivory">
             <WordsUp text="Seu sorriso merece" />
-            <span className="block shine-text">
+            <span className="block text-gold">
               <WordsUp text="45 anos de experiência" />
             </span>
             <WordsUp text="trabalhando por ele." />
