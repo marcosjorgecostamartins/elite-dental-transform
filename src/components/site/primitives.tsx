@@ -2,7 +2,7 @@ import { motion, useInView, useScroll, useSpring, useTransform } from "motion/re
 import { useEffect, useRef, useState, type ReactNode } from "react";
 
 export const WHATSAPP =
-  "https://wa.me/5527993098190?text=Ol%C3%A1%2C%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20Visual%20Odonto.";
+  "https://wa.me/5527992390143?text=Ol%C3%A1%2C%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20Visual%20Odonto.";
 export const MAPS =
   "https://www.google.com/maps/search/?api=1&query=Centro+da+Praia+Shopping+Av.+Nossa+Sra.+da+Penha+570+Praia+do+Canto+Vit%C3%B3ria+ES";
 

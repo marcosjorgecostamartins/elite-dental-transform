@@ -2,7 +2,10 @@ import { motion } from "motion/react";
 import procedure from "@/assets/02_sobre_clinica.jpg.asset.json";
 import care from "@/assets/11_clinica_atendimento.jpg.asset.json";
 
-import facetas from "@/assets/facetas-porcelana.jpeg.asset.json";
+import facetas from "@/assets/facetas-porcelana-nova.jpg.asset.json";
+import lentes from "@/assets/lentes-contato-dental.jpg.asset.json";
+import clareamento from "@/assets/clareamento-restauracoes.jpg.asset.json";
+import reabilitacao from "@/assets/reabilitacao-oral.jpg.asset.json";
 import { CtaButton, Reveal, SectionLabel } from "./primitives";
 import { Tilt } from "./extras";
 
@@ -27,7 +30,8 @@ const cards: Card[] = [
   {
     title: "Lentes de Contato Dental",
     text: "Lâminas ultrafinas de porcelana que transformam o sorriso sem desgastar o dente, com resultado natural e duradouro.",
-    img: null,
+    img: lentes.url,
+    alt: "Antes e depois de lentes de contato dental com sorriso natural",
   },
   {
     title: "Facetas em Porcelana",
@@ -44,12 +48,14 @@ const cards: Card[] = [
   {
     title: "Clareamento e Restaurações Estéticas",
     text: "Dentes visivelmente mais claros e uniformes, com protocolo seguro e acompanhado do início ao fim.",
-    img: null,
+    img: clareamento.url,
+    alt: "Sorriso após clareamento dental e restaurações estéticas",
   },
   {
     title: "Reabilitação Oral Completa",
     text: "Para casos mais complexos, um plano de tratamento único que devolve função e estética ao mesmo tempo.",
-    img: null,
+    img: reabilitacao.url,
+    alt: "Antes e depois de reabilitação oral completa",
   },
 ];
 

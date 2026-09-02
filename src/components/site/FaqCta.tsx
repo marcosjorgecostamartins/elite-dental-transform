@@ -5,7 +5,7 @@ import { CtaButton, Reveal, SectionLabel, WHATSAPP } from "./primitives";
 const faq = [
   {
     q: "Como posso agendar uma avaliação?",
-    a: "Pelo WhatsApp (27) 99309-8190 ou pelo formulário desta página. Você recebe o retorno com os horários disponíveis e escolhe o que couber melhor na sua rotina.",
+    a: "Pelo WhatsApp (27) 99239-0143 ou pelo formulário desta página. Você recebe o retorno com os horários disponíveis e escolhe o que couber melhor na sua rotina.",
   },
   {
     q: "Quanto tempo leva um tratamento de implante dentário?",
