@@ -18,7 +18,7 @@ const quickList = [
   { t: "Reabilitação Oral Completa", d: "M3 12h4l2 5 3-10 2.5 8L18 9h3" },
 ];
 
-type Card = { title: string; text: string; img: string | null; alt?: string };
+type Card = { title: string; text: string; img: string | null; alt?: string; pos?: string };
 
 const cards: Card[] = [
   {
@@ -32,12 +32,14 @@ const cards: Card[] = [
     text: "Lâminas ultrafinas de porcelana que transformam o sorriso sem desgastar o dente, com resultado natural e duradouro.",
     img: lentes.url,
     alt: "Antes e depois de lentes de contato dental com sorriso natural",
+    pos: "object-[50%_72%]",
   },
   {
     title: "Facetas em Porcelana",
     text: "Correção de cor, formato e alinhamento com facetas personalizadas, feitas sob medida para o seu rosto.",
     img: facetas.url,
     alt: "Resultado de facetas em porcelana com sorriso natural e alinhado",
+    pos: "object-[50%_68%]",
   },
   {
     title: "Harmonização Orofacial",
@@ -111,7 +113,7 @@ export function Services() {
                       <img
                         src={card.img}
                         alt={card.alt ?? card.title}
-                        className="h-full w-full object-cover transition-transform duration-[900ms] group-hover:scale-110"
+                        className={`h-full w-full object-cover ${card.pos ?? "object-center"} transition-transform duration-[900ms] group-hover:scale-110`}
                         loading="lazy"
                       />
                       <div className="absolute inset-0 bg-linear-to-t from-ink/70 to-transparent" />
