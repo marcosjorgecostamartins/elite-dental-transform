@@ -1,4 +1,5 @@
 import doctor from "@/assets/dr-sinval-silva.png.asset.json";
+import luciana from "@/assets/dra-luciana-dantas.svg";
 import inAction from "@/assets/02_sobre_clinica.jpg.asset.json";
 import { CtaButton, Parallax, Reveal, SectionLabel } from "./primitives";
 
@@ -38,7 +39,7 @@ export function About() {
                 style={{ borderRadius: "42% 58% 54% 46% / 40% 46% 54% 60%" }}
               >
                 <img
-                  src="/dra-luciana-dantas.jpeg"
+                  src={luciana}
                   alt="Dra. Luciana Dantas, da Visual Odonto Integra Clínica"
                   className="aspect-[3/4] w-full object-cover object-center"
                   loading="lazy"
