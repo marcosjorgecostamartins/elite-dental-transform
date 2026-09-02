@@ -81,7 +81,7 @@ Rodapé
 •	Visual Odonto — Integra Clínica
 Especializada em implantes dentários e estética do sorriso. Transformando vidas através de sorrisos perfeitos.
 •	Contato
-📞 (27) 993098190
+📞 (27) 99239-0143
 ✉️ contato@visualodonto.com.br
 •	Localização
 Centro da Praia Shopping

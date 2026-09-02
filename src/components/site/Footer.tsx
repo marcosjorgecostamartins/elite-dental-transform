@@ -17,8 +17,8 @@ export function Footer() {
           <h2 className="eyebrow text-ivory/45">Contato</h2>
           <ul className="mt-4 space-y-2 text-sm text-ivory/75">
             <li>
-              <a href="tel:+5527993098190" className="transition-colors hover:text-mint">
-                (27) 99309-8190
+              <a href="tel:+5527992390143" className="transition-colors hover:text-mint">
+                (27) 99239-0143
               </a>
             </li>
             <li>

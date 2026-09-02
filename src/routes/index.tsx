@@ -20,7 +20,7 @@ const jsonLd = {
   "@type": "Dentist",
   name: "Visual Odonto Integra Clínica",
   description: DESCRIPTION,
-  telephone: "+5527993098190",
+  telephone: "+5527992390143",
   email: "contato@visualodonto.com.br",
   address: {
     "@type": "PostalAddress",
