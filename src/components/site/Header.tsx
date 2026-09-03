@@ -31,8 +31,12 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 md:px-10">
-        <a href="#top" className="text-ivory" aria-label="Visual Odonto — página inicial">
-          <Logo size={42} />
+        <a
+          href="#top"
+          className="text-ivory transition-transform duration-500 hover:scale-[1.03]"
+          aria-label="Visual Odonto — página inicial"
+        >
+          <Logo size={solid ? 52 : 64} />
         </a>
 
         <nav className="hidden items-center gap-8 lg:flex" aria-label="Navegação principal">
