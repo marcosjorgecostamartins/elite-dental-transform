@@ -14,7 +14,7 @@ export function Hero() {
     <section ref={ref} id="top" className="relative isolate min-h-svh overflow-hidden surface-dark">
       <motion.div style={{ y: videoY }} className="absolute inset-0 -z-10 h-[118%]">
         <video
-          className="h-full w-full object-cover opacity-95 contrast-[1.08] saturate-[1.05]"
+          className="h-full w-full object-cover opacity-45 contrast-[0.95] saturate-[0.85]"
           src={heroVideo.url}
           poster={heroPoster.url}
           autoPlay
@@ -25,10 +25,11 @@ export function Hero() {
           aria-hidden="true"
         />
       </motion.div>
-      <div className="absolute inset-0 -z-10 bg-linear-to-b from-ink/60 via-ink/35 to-ink/95" />
-      <div className="absolute inset-0 -z-10 bg-linear-to-r from-ink/90 via-ink/45 to-ink/5" />
-      <div className="absolute inset-x-0 bottom-0 -z-10 h-2/3 bg-linear-to-t from-ink/85 to-transparent" />
-      <div className="grid-tech absolute inset-0 -z-10 opacity-15" />
+      <div className="absolute inset-0 -z-10 bg-ink/55" />
+      <div className="absolute inset-0 -z-10 bg-linear-to-r from-ink/95 via-ink/70 to-ink/25" />
+      <div className="absolute inset-x-0 bottom-0 -z-10 h-2/3 bg-linear-to-t from-ink/95 to-transparent" />
+      <div className="grid-tech absolute inset-0 -z-10 opacity-10" />
+
 
       <motion.div
         style={{ y: contentY }}
@@ -49,10 +50,10 @@ export function Hero() {
           </motion.a>
 
           <h1
-            className="mt-8 font-display text-[clamp(2.9rem,7.4vw,6rem)] font-semibold leading-[0.95] tracking-[-0.03em] text-ivory"
+            className="mt-8 font-display text-[clamp(3.2rem,8.2vw,7rem)] font-bold leading-[0.92] tracking-[-0.035em] text-ivory"
             style={{
               textShadow:
-                "0 2px 10px color-mix(in oklab, var(--ink) 92%, transparent), 0 8px 40px color-mix(in oklab, var(--ink) 80%, transparent)",
+                "0 2px 12px color-mix(in oklab, var(--ink) 95%, transparent), 0 12px 60px color-mix(in oklab, var(--ink) 90%, transparent)",
             }}
           >
             <WordsUp text="Seu sorriso merece" />
@@ -60,19 +61,20 @@ export function Hero() {
               className="relative block text-gold"
               style={{
                 textShadow:
-                  "0 2px 10px color-mix(in oklab, var(--ink) 90%, transparent), 0 0 46px color-mix(in oklab, var(--gold) 45%, transparent)",
+                  "0 2px 12px color-mix(in oklab, var(--ink) 92%, transparent), 0 0 60px color-mix(in oklab, var(--gold) 55%, transparent)",
               }}
             >
               <WordsUp text="45 anos de experiência" />
               <span
                 aria-hidden="true"
-                className="mt-2 block h-[3px] w-28 rounded-full bg-linear-to-r from-mint via-gold to-transparent md:w-40"
+                className="mt-3 block h-[4px] w-36 rounded-full bg-linear-to-r from-mint via-gold to-transparent md:w-56"
               />
             </span>
             <span className="mt-2 block">
               <WordsUp text="trabalhando por ele." />
             </span>
           </h1>
+
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
