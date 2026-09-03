@@ -49,14 +49,29 @@ export function Hero() {
           </motion.a>
 
           <h1
-            className="mt-7 font-display text-[clamp(2.4rem,6.4vw,5rem)] leading-[0.98] text-ivory"
-            style={{ textShadow: "0 2px 24px color-mix(in oklab, var(--ink) 85%, transparent)" }}
+            className="mt-8 font-display text-[clamp(2.9rem,7.4vw,6rem)] font-semibold leading-[0.95] tracking-[-0.03em] text-ivory"
+            style={{
+              textShadow:
+                "0 2px 10px color-mix(in oklab, var(--ink) 92%, transparent), 0 8px 40px color-mix(in oklab, var(--ink) 80%, transparent)",
+            }}
           >
             <WordsUp text="Seu sorriso merece" />
-            <span className="block text-gold">
+            <span
+              className="relative block text-gold"
+              style={{
+                textShadow:
+                  "0 2px 10px color-mix(in oklab, var(--ink) 90%, transparent), 0 0 46px color-mix(in oklab, var(--gold) 45%, transparent)",
+              }}
+            >
               <WordsUp text="45 anos de experiência" />
+              <span
+                aria-hidden="true"
+                className="mt-2 block h-[3px] w-28 rounded-full bg-linear-to-r from-mint via-gold to-transparent md:w-40"
+              />
             </span>
-            <WordsUp text="trabalhando por ele." />
+            <span className="mt-2 block">
+              <WordsUp text="trabalhando por ele." />
+            </span>
           </h1>
 
           <motion.p
