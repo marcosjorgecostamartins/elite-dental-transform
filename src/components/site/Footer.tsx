@@ -63,7 +63,7 @@ export function Footer() {
         <p>© 2024 Visual Odonto Integra Clínica. Todos os direitos reservados.</p>
         <div className="flex flex-col gap-3">
           <p>Praia do Canto · Vitória — ES</p>
-          <Logo size={44} showSubtitle={false} className="opacity-90" />
+          <Logo size={72} showSubtitle={false} className="opacity-95" />
         </div>
       </div>
     </footer>
