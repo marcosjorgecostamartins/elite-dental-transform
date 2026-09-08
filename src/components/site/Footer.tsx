@@ -48,7 +48,8 @@ export function Footer() {
             <br />
             Praia do Canto, Vitória — ES, 29055-131
           </address>
-          <a
+          <Logo size={84} showWordmark={false} className="mt-5" />
+          <
             href={MAPS}
             target="_blank"
             rel="noopener noreferrer"
