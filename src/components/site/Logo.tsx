@@ -4,11 +4,13 @@ export function Logo({
   className = "",
   size = 48,
   showWordmark = true,
+  showSubtitle = true,
   subtitleClassName = "text-gold/85",
 }: {
   className?: string;
   size?: number;
   showWordmark?: boolean;
+  showSubtitle?: boolean;
   subtitleClassName?: string;
 }) {
   return (
@@ -38,7 +40,9 @@ export function Logo({
           <span className="block font-display text-2xl font-bold tracking-tight md:text-3xl">
             Visual Odonto
           </span>
-          <span className={`eyebrow block ${subtitleClassName}`}>Integra Clínica</span>
+          {showSubtitle && (
+            <span className={`eyebrow block ${subtitleClassName}`}>Integra Clínica</span>
+          )}
         </span>
       )}
 
