@@ -3,9 +3,9 @@ import procedure from "@/assets/02_sobre_clinica.jpg.asset.json";
 import care from "@/assets/11_clinica_atendimento.jpg.asset.json";
 
 import facetas from "@/assets/facetas-porcelana-nova.jpg.asset.json";
-import lentes from "@/assets/lentes-contato-dental.jpg.asset.json";
+import lentes from "@/assets/lentes-contato-sorriso.jpg.asset.json";
 import clareamento from "@/assets/clareamento-restauracoes-nova.jpg.asset.json";
-import reabilitacao from "@/assets/reabilitacao-oral.jpg.asset.json";
+import reabilitacao from "@/assets/reabilitacao-antes-depois.jpg.asset.json";
 import { CtaButton, Reveal, SectionLabel } from "./primitives";
 import { Tilt } from "./extras";
 
@@ -31,8 +31,8 @@ const cards: Card[] = [
     title: "Lentes de Contato Dental",
     text: "Lâminas ultrafinas de porcelana que transformam o sorriso sem desgastar o dente, com resultado natural e duradouro.",
     img: lentes.url,
-    alt: "Antes e depois de lentes de contato dental com sorriso natural",
-    pos: "object-[50%_72%]",
+    alt: "Sorriso com lentes de contato dental, resultado natural e alinhado",
+    pos: "object-center",
   },
   {
     title: "Facetas em Porcelana",
@@ -57,7 +57,8 @@ const cards: Card[] = [
     title: "Reabilitação Oral Completa",
     text: "Para casos mais complexos, um plano de tratamento único que devolve função e estética ao mesmo tempo.",
     img: reabilitacao.url,
-    alt: "Antes e depois de reabilitação oral completa",
+    alt: "Antes e depois de reabilitação oral completa, lado a lado",
+    pos: "object-center",
   },
 ];
 
