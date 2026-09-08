@@ -58,8 +58,8 @@ function Index() {
       <Header />
       <main>
         <Hero />
-        <About />
         <Services />
+        <About />
         <TechBand />
         <Testimonials />
         <Clinic />

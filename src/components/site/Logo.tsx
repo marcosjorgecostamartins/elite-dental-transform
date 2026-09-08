@@ -14,14 +14,14 @@ export function Logo({
   return (
     <span className={`flex items-center gap-4 ${className}`}>
       <span
-        className="relative inline-flex shrink-0 items-center justify-center rounded-full ring-2 ring-gold/60"
+        className="relative inline-flex shrink-0 items-center justify-center rounded-full ring-2 ring-gold/75"
         style={{
           width: size,
           height: size,
           background:
-            "radial-gradient(circle at 50% 40%, color-mix(in oklab, var(--gold) 32%, transparent), transparent 72%)",
+            "radial-gradient(circle at 50% 40%, color-mix(in oklab, var(--gold) 45%, transparent), transparent 74%)",
           boxShadow:
-            "0 8px 34px -8px color-mix(in oklab, var(--gold) 80%, transparent), 0 0 0 1px color-mix(in oklab, var(--gold) 30%, transparent)",
+            "0 10px 44px -8px color-mix(in oklab, var(--gold) 95%, transparent), 0 0 0 2px color-mix(in oklab, var(--gold) 42%, transparent)",
         }}
       >
         <img
@@ -35,7 +35,7 @@ export function Logo({
       </span>
       {showWordmark && (
         <span className="leading-tight">
-          <span className="block font-display text-xl font-semibold tracking-tight md:text-2xl">
+          <span className="block font-display text-2xl font-bold tracking-tight md:text-3xl">
             Visual Odonto
           </span>
           <span className={`eyebrow block ${subtitleClassName}`}>Integra Clínica</span>
