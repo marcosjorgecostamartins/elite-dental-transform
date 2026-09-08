@@ -48,7 +48,6 @@ export function Footer() {
             <br />
             Praia do Canto, Vitória — ES, 29055-131
           </address>
-          <Logo size={84} showWordmark={false} className="mt-5" />
           <a
             href={MAPS}
             target="_blank"
@@ -62,10 +61,7 @@ export function Footer() {
 
       <div className="mx-auto mt-14 flex max-w-7xl flex-col gap-2 border-t border-ivory/10 px-5 pt-6 text-xs text-ivory/45 md:flex-row md:items-center md:justify-between md:px-10">
         <p>© 2024 Visual Odonto Integra Clínica. Todos os direitos reservados.</p>
-        <div className="flex flex-col gap-3">
-          <p>Praia do Canto · Vitória — ES</p>
-          <Logo size={72} showSubtitle={false} className="opacity-95" />
-        </div>
+        <p>Praia do Canto · Vitória — ES</p>
       </div>
     </footer>
   );
