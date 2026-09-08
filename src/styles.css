@@ -53,8 +53,8 @@
 :root {
   --radius: 1.125rem;
 
-  --ink: oklch(0.29 0.021 265);
-  --ink-soft: oklch(0.375 0.024 265);
+  --ink: #2c323e;
+  --ink-soft: #3a4150;
   --ivory: oklch(0.945 0.008 92);
   --mint: oklch(0.735 0.088 79);
   --coral: oklch(0.55 0.115 255);
@@ -128,7 +128,7 @@
 @utility surface-dark {
   background:
     radial-gradient(120% 90% at 10% 0%, color-mix(in oklab, var(--mint) 14%, transparent), transparent 60%),
-    linear-gradient(160deg, var(--ink) 0%, oklch(0.17 0.035 224) 100%);
+    linear-gradient(160deg, var(--ink) 0%, #22272f 100%);
   color: var(--ivory);
 }
 
