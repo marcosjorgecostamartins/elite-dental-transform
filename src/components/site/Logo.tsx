@@ -5,16 +5,19 @@ export function Logo({
   size = 48,
   showWordmark = true,
   showSubtitle = true,
+  showMark = true,
   subtitleClassName = "text-gold/85",
 }: {
   className?: string;
   size?: number;
   showWordmark?: boolean;
   showSubtitle?: boolean;
+  showMark?: boolean;
   subtitleClassName?: string;
 }) {
   return (
     <span className={`flex items-center gap-4 ${className}`}>
+      {showMark && (
       <span
         className="relative inline-flex shrink-0 items-center justify-center rounded-full ring-2 ring-gold/75"
         style={{
