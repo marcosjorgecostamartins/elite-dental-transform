@@ -14,7 +14,7 @@ export function Hero() {
     <section ref={ref} id="top" className="relative isolate min-h-svh overflow-hidden surface-dark">
       <motion.div style={{ y: videoY }} className="absolute inset-0 -z-10 h-[118%]">
         <video
-          className="h-full w-full object-cover opacity-45 contrast-[0.95] saturate-[0.85]"
+          className="h-full w-full object-cover opacity-90 contrast-[1.04] saturate-[1]"
           src={heroVideo.url}
           poster={heroPoster.url}
           autoPlay
@@ -25,10 +25,10 @@ export function Hero() {
           aria-hidden="true"
         />
       </motion.div>
-      <div className="absolute inset-0 -z-10 bg-ink/55" />
-      <div className="absolute inset-0 -z-10 bg-linear-to-r from-ink/95 via-ink/70 to-ink/25" />
-      <div className="absolute inset-x-0 bottom-0 -z-10 h-2/3 bg-linear-to-t from-ink/95 to-transparent" />
-      <div className="grid-tech absolute inset-0 -z-10 opacity-10" />
+      <div className="absolute inset-0 -z-10 bg-ink/15" />
+      <div className="absolute inset-0 -z-10 bg-linear-to-r from-ink/92 via-ink/55 to-transparent" />
+      <div className="absolute inset-x-0 bottom-0 -z-10 h-3/5 bg-linear-to-t from-ink/92 via-ink/45 to-transparent" />
+      <div className="grid-tech absolute inset-0 -z-10 opacity-[0.07]" />
 
 
       <motion.div
