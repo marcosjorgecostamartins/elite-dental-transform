@@ -56,7 +56,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.28 }}
             className="mt-5 w-fit text-ivory"
           >
-            <Logo size={88} showWordmark={false} />
+            <Logo size={148} showWordmark={false} />
           </motion.div>
 
           <h1
