@@ -3,9 +3,9 @@ import procedure from "@/assets/02_sobre_clinica.jpg.asset.json";
 import care from "@/assets/11_clinica_atendimento.jpg.asset.json";
 
 import facetas from "@/assets/facetas-porcelana-nova.jpg.asset.json";
-import lentes from "@/assets/lentes-contato-dental.jpg.asset.json";
+import lentes from "@/assets/lentes-contato-sorriso.jpg.asset.json";
 import clareamento from "@/assets/clareamento-restauracoes-nova.jpg.asset.json";
-import reabilitacao from "@/assets/reabilitacao-oral.jpg.asset.json";
+import reabilitacao from "@/assets/reabilitacao-antes-depois.jpg.asset.json";
 import { CtaButton, Reveal, SectionLabel } from "./primitives";
 import { Tilt } from "./extras";
 
