@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
-import procedure from "@/assets/02_sobre_clinica.jpg.asset.json";
-import care from "@/assets/11_clinica_atendimento.jpg.asset.json";
+import implante from "@/assets/implante.png.asset.json";
+import orofacial from "@/assets/orofacial.png.asset.json";
+
 
 import facetas from "@/assets/facetas-porcelana-nova.jpg.asset.json";
 import lentes from "@/assets/lentes-contato-sorriso.jpg.asset.json";
@@ -24,8 +25,9 @@ const cards: Card[] = [
   {
     title: "Implantes Dentários",
     text: "Restauração completa com implantes de titânio de alta qualidade e planejamento 3D milimétrico, do diagnóstico à cirurgia.",
-    img: procedure.url,
-    alt: "Procedimento de implante dentário sendo realizado na clínica",
+    img: implante.url,
+    alt: "Antes e depois de implantes dentários, sorriso reabilitado",
+    pos: "object-center",
   },
   {
     title: "Lentes de Contato Dental",
@@ -44,8 +46,9 @@ const cards: Card[] = [
   {
     title: "Harmonização Orofacial",
     text: "Toxina botulínica e preenchimento aplicados com técnica e critério, para um resultado que ninguém percebe que foi “feito”.",
-    img: care.url,
-    alt: "Atendimento personalizado com o Dr. Sinval Silva",
+    img: orofacial.url,
+    alt: "Antes e depois de harmonização orofacial com resultado natural",
+    pos: "object-center",
   },
   {
     title: "Clareamento e Restaurações Estéticas",
