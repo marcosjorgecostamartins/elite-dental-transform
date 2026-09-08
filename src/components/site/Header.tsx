@@ -36,7 +36,7 @@ export function Header() {
           className="text-ivory transition-transform duration-500 hover:scale-[1.03]"
           aria-label="Visual Odonto — página inicial"
         >
-          <Logo size={solid ? 92 : 124} showSubtitle={false} />
+          <Logo size={solid ? 92 : 124} showSubtitle={false} showMark={false} />
         </a>
 
         <nav className="hidden items-center gap-8 lg:flex" aria-label="Navegação principal">
