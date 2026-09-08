@@ -3,6 +3,7 @@ import { useRef } from "react";
 import heroVideo from "@/assets/hero-video-1.mp4.asset.json";
 import heroPoster from "@/assets/01_hero_dentista.jpg.asset.json";
 import { Counter, CtaButton, MAPS, WordsUp } from "./primitives";
+import { Logo } from "./Logo";
 
 export function Hero() {
   const ref = useRef<HTMLElement>(null);
@@ -49,8 +50,17 @@ export function Hero() {
             Praia do Canto, Vitória — ES
           </motion.a>
 
+          <motion.div
+            initial={{ opacity: 0, y: 14 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.28 }}
+            className="mt-5 w-fit text-ivory"
+          >
+            <Logo size={88} showWordmark={false} />
+          </motion.div>
+
           <h1
-            className="mt-8 font-display text-[clamp(3.2rem,8.2vw,7rem)] font-bold leading-[0.92] tracking-[-0.035em] text-ivory"
+            className="mt-6 font-display text-[clamp(3.2rem,8.2vw,7rem)] font-bold leading-[0.92] tracking-[-0.035em] text-ivory"
             style={{
               textShadow:
                 "0 2px 12px color-mix(in oklab, var(--ink) 95%, transparent), 0 12px 60px color-mix(in oklab, var(--ink) 90%, transparent)",
