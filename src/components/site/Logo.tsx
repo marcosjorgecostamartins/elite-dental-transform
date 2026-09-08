@@ -38,6 +38,7 @@ export function Logo({
           className="h-full w-full object-contain drop-shadow-[0_2px_6px_color-mix(in_oklab,var(--ink)_55%,transparent)]"
         />
       </span>
+      )}
       {showWordmark && (
         <span className="leading-tight">
           <span className="block font-display text-2xl font-bold tracking-tight md:text-3xl">
