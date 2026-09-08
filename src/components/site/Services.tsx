@@ -4,7 +4,7 @@ import care from "@/assets/11_clinica_atendimento.jpg.asset.json";
 
 import facetas from "@/assets/facetas-porcelana-nova.jpg.asset.json";
 import lentes from "@/assets/lentes-contato-sorriso.jpg.asset.json";
-import clareamento from "@/assets/clareamento-restauracoes-nova.jpg.asset.json";
+import clareamento from "@/assets/clareamento-antes-depois.png.asset.json";
 import reabilitacao from "@/assets/reabilitacao-antes-depois.jpg.asset.json";
 import { CtaButton, Reveal, SectionLabel } from "./primitives";
 import { Tilt } from "./extras";
@@ -51,7 +51,8 @@ const cards: Card[] = [
     title: "Clareamento e Restaurações Estéticas",
     text: "Dentes visivelmente mais claros e uniformes, com protocolo seguro e acompanhado do início ao fim.",
     img: clareamento.url,
-    alt: "Sorriso após clareamento dental e restaurações estéticas",
+    alt: "Antes e depois de clareamento dental e restaurações estéticas",
+    pos: "object-center",
   },
   {
     title: "Reabilitação Oral Completa",
