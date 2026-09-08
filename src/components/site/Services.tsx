@@ -57,7 +57,8 @@ const cards: Card[] = [
     title: "Reabilitação Oral Completa",
     text: "Para casos mais complexos, um plano de tratamento único que devolve função e estética ao mesmo tempo.",
     img: reabilitacao.url,
-    alt: "Antes e depois de reabilitação oral completa",
+    alt: "Antes e depois de reabilitação oral completa, lado a lado",
+    pos: "object-center",
   },
 ];
 
