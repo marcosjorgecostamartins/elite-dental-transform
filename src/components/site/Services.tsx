@@ -31,8 +31,8 @@ const cards: Card[] = [
     title: "Lentes de Contato Dental",
     text: "Lâminas ultrafinas de porcelana que transformam o sorriso sem desgastar o dente, com resultado natural e duradouro.",
     img: lentes.url,
-    alt: "Antes e depois de lentes de contato dental com sorriso natural",
-    pos: "object-[50%_72%]",
+    alt: "Sorriso com lentes de contato dental, resultado natural e alinhado",
+    pos: "object-center",
   },
   {
     title: "Facetas em Porcelana",
