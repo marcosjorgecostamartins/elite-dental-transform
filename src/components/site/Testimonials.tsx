@@ -62,7 +62,7 @@ export function Testimonials() {
         <Reveal>
           <SectionLabel>Prova real</SectionLabel>
           <div className="mt-5 flex flex-wrap items-end justify-between gap-6">
-            <h2 className="font-display text-[clamp(1.9rem,3.6vw,3rem)] text-ivory">
+            <h2 className="font-display text-[clamp(2.1rem,4.4vw,3.6rem)] font-extrabold text-ivory">
               Quem já passou por aqui, conta.
             </h2>
             <div className="flex gap-2">

@@ -21,7 +21,7 @@ export function TechBand() {
         <div>
           <Reveal>
             <SectionLabel>Tecnologia</SectionLabel>
-            <h2 className="mt-5 font-display text-[clamp(2rem,4vw,3.4rem)] leading-[1.05] text-ivory text-balance-tight">
+            <h2 className="mt-5 font-display text-[clamp(2.3rem,4.8vw,4rem)] font-extrabold leading-[1.05] text-ivory text-balance-tight">
               Tecnologia e conforto para o seu <span className="shine-text">sorriso perfeito</span>.
             </h2>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-ivory/70">

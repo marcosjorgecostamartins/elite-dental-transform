@@ -55,7 +55,7 @@ export function Faq() {
       <div className="mx-auto grid max-w-7xl gap-14 px-5 md:px-10 lg:grid-cols-[0.8fr_1.2fr]">
         <Reveal>
           <SectionLabel>Dúvidas frequentes</SectionLabel>
-          <h2 className="mt-5 font-display text-[clamp(1.9rem,3.4vw,2.8rem)] leading-[1.08] text-ink text-balance-tight">
+          <h2 className="mt-5 font-display text-[clamp(2.1rem,4vw,3.2rem)] font-extrabold leading-[1.08] text-ink text-balance-tight">
             Antes de decidir, é justo que você saiba de tudo.
           </h2>
           <p className="mt-5 text-muted-foreground">
@@ -130,7 +130,7 @@ export function FinalCta() {
       <div className="relative mx-auto grid max-w-7xl gap-14 px-5 md:px-10 lg:grid-cols-2 lg:items-center">
         <Reveal>
           <SectionLabel>Próximo passo</SectionLabel>
-          <h2 className="mt-5 font-display text-[clamp(2rem,4.2vw,3.6rem)] leading-[1.03] text-ivory text-balance-tight">
+          <h2 className="mt-5 font-display text-[clamp(2.4rem,5vw,4.2rem)] font-extrabold leading-[1.03] text-ivory text-balance-tight">
             Seu próximo sorriso começa com uma <span className="shine-text">conversa</span>.
           </h2>
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-ivory/70">
