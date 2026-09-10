@@ -60,7 +60,7 @@ export function Hero() {
           </motion.div>
 
           <h1
-            className="mt-6 font-display text-[clamp(3.2rem,8.2vw,7rem)] font-bold leading-[0.92] tracking-[-0.035em] text-ivory"
+            className="mt-6 font-display text-[clamp(3.4rem,8.6vw,7.4rem)] font-extrabold leading-[0.92] tracking-[-0.035em] text-ivory"
             style={{
               textShadow:
                 "0 2px 12px color-mix(in oklab, var(--ink) 95%, transparent), 0 12px 60px color-mix(in oklab, var(--ink) 90%, transparent)",

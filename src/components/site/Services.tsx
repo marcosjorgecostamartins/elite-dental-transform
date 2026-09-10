@@ -72,7 +72,7 @@ export function Services() {
       <div className="mx-auto max-w-7xl px-5 md:px-10">
         <Reveal>
           <SectionLabel>O que fazemos</SectionLabel>
-          <h2 className="mt-5 max-w-3xl font-display text-[clamp(1.9rem,3.6vw,3rem)] leading-[1.08] text-ink text-balance-tight">
+          <h2 className="mt-5 max-w-3xl font-display text-[clamp(2.1rem,4.4vw,3.6rem)] font-extrabold leading-[1.08] text-ink text-balance-tight">
             Tratamentos pensados para durar — e para parecer que sempre foram assim.
           </h2>
         </Reveal>

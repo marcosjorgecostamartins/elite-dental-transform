@@ -65,7 +65,7 @@ export function About() {
         <div>
           <Reveal>
             <SectionLabel>Autoridade</SectionLabel>
-            <h2 className="mt-5 font-display text-[clamp(2rem,4vw,3.4rem)] leading-[1.05] text-ink text-balance-tight">
+            <h2 className="mt-5 font-display text-[clamp(2.3rem,4.8vw,4rem)] font-extrabold leading-[1.05] text-ink text-balance-tight">
               Tradição que virou tecnologia.
             </h2>
           </Reveal>

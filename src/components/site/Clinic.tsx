@@ -28,7 +28,7 @@ export function Clinic() {
       <div className="mx-auto max-w-7xl px-5 md:px-10">
         <Reveal>
           <SectionLabel>Nossa clínica</SectionLabel>
-          <h2 className="mt-5 max-w-3xl font-display text-[clamp(1.9rem,3.6vw,3rem)] leading-[1.08] text-ink text-balance-tight">
+          <h2 className="mt-5 max-w-3xl font-display text-[clamp(2.1rem,4.4vw,3.6rem)] font-extrabold leading-[1.08] text-ink text-balance-tight">
             Um ambiente feito para você se sentir seguro — e bem.
           </h2>
         </Reveal>
